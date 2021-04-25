@@ -16,8 +16,8 @@
 .filter-button__link {
   padding: 6px 22px;
   font-weight: 500;
-  color: var(--premiry-bg-color);
   color: var(--primary-text-color);
+  background-color: rgba(245, 244, 250, 1);
   font-size: 16px;
   line-height: 1.6;
   border: none;
@@ -53,7 +53,7 @@
 
   & .secandary {
     color: var(--primary-text-color);
-    background-color: var(--premiry-bg-color);
-    border-color: var(--premiry-bg-color);
+    background-color: rgba(245, 244, 250, 1);
+    border-color: rgba(245, 244, 250, 1);
   }
 }
