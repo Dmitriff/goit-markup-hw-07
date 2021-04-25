@@ -123,12 +123,12 @@
   border-radius: 4px;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.coment:hover,
-.coment:focus {
-  outline: none;
-  border: 1px solid var(--accent-color);
+  &:hover,
+  &:focus {
+    outline: none;
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .form-checkbox {

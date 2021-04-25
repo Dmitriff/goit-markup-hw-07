@@ -7,10 +7,10 @@
   justify-content: center;
   padding-left: 0;
   margin-bottom: 50px;
-}
 
-.filter-button > li:not(:first-child) {
-  margin-left: 8px;
+  & > li:not(:first-child) {
+    margin-left: 8px;
+  }
 }
 
 .filter-button__link {
@@ -36,24 +36,24 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.filter-button__link:hover,
-.filter-button__link:focus {
-  -webkit-box-shadow: var(--box-shadow);
-  box-shadow: var(--box-shadow);
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
+  &:hover,
+  &:focus {
+    -webkit-box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow);
+    background-color: var(--accent-color);
+    color: var(--white-color);
+  }
 
-.filter-button__link .primary {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-  border-color: var(--accent-color);
-}
+  & .primary {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    border-color: var(--accent-color);
+  }
 
-.filter-button__link .secandary {
-  color: var(--primary-text-color);
-  background-color: var(--premiry-bg-color);
-  border-color: var(--premiry-bg-color);
+  & .secandary {
+    color: var(--primary-text-color);
+    background-color: var(--premiry-bg-color);
+    border-color: var(--premiry-bg-color);
+  }
 }
